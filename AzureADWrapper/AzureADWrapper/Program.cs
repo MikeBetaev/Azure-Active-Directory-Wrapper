@@ -10,6 +10,7 @@ namespace AzureADWrapper
     {
         static void Main(string[] args)
         {
+            GraphApiClient.CreateUser("your tenant", "your ClientId", "your client secret", "name of user");
         }
     }
 }
